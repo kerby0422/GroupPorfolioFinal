@@ -72,7 +72,10 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
     overflow: hidden;
 
-    background: var(--kp-cream);
+    background:
+        radial-gradient(ellipse at 12% 18%, rgba(249,115,22,.055), transparent 30%),
+        radial-gradient(ellipse at 88% 62%, rgba(249,115,22,.045), transparent 32%),
+        var(--kp-cream);
 
     color: var(--kp-text);
 
@@ -290,7 +293,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* About */
 
-.kerby-portfolio .kp-about { background: var(--kp-cream); }
+.kerby-portfolio .kp-about { background: radial-gradient(ellipse at 95% 15%, rgba(249,115,22,.07), transparent 34%), var(--kp-cream); }
 
 .kerby-portfolio .kp-about-grid { display: grid; grid-template-columns: .78fr 1.22fr; align-items: start; gap: 78px; }
 
@@ -316,7 +319,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Skills */
 
-.kerby-portfolio .kp-skills { background: #fff; }
+.kerby-portfolio .kp-skills { background: radial-gradient(ellipse at 8% 12%, rgba(249,115,22,.055), transparent 32%), #fff; }
 
 .kerby-portfolio .kp-skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
 
@@ -348,7 +351,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Education */
 
-.kerby-portfolio .kp-education { background: var(--kp-cream); }
+.kerby-portfolio .kp-education { background: radial-gradient(ellipse at 88% 82%, rgba(249,115,22,.065), transparent 36%), var(--kp-cream); }
 
 .kerby-portfolio .kp-education-layout { display: grid; grid-template-columns: .72fr 1.28fr; align-items: start; gap: 75px; }
 
@@ -374,7 +377,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Projects */
 
-.kerby-portfolio .kp-projects { background: #fff; }
+.kerby-portfolio .kp-projects { background: radial-gradient(ellipse at 90% 14%, rgba(249,115,22,.05), transparent 34%), #fff; }
 
 .kerby-portfolio .kp-project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
 
@@ -414,7 +417,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Certificates / learning */
 
-.kerby-portfolio .kp-certificates { background: var(--kp-cream); }
+.kerby-portfolio .kp-certificates { background: radial-gradient(ellipse at 8% 88%, rgba(249,115,22,.065), transparent 36%), var(--kp-cream); }
 
 .kerby-portfolio .kp-certificate-box { display: grid; grid-template-columns: 82px 1fr; align-items: start; gap: 28px; padding: 34px; margin-top: 34px; border: 1px solid var(--kp-border); background: #fff; }
 
