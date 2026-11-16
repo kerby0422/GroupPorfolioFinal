@@ -290,7 +290,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* About */
 
-.kerby-portfolio .kp-about { background: var(--kp-cream); }
+.kerby-portfolio .kp-about { background: radial-gradient(ellipse at 8% 12%, rgba(249,115,22,.08), transparent 34%), linear-gradient(135deg, #fbf9f5, var(--kp-cream)); }
 
 .kerby-portfolio .kp-about-grid { display: grid; grid-template-columns: .78fr 1.22fr; align-items: start; gap: 78px; }
 
@@ -316,7 +316,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Skills */
 
-.kerby-portfolio .kp-skills { background: #fff; }
+.kerby-portfolio .kp-skills { background: radial-gradient(ellipse at 92% 18%, rgba(249,115,22,.055), transparent 32%), linear-gradient(135deg, #fff, #fcfaf7); }
 
 .kerby-portfolio .kp-skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
 
@@ -348,7 +348,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Education */
 
-.kerby-portfolio .kp-education { background: var(--kp-cream); }
+.kerby-portfolio .kp-education { background: radial-gradient(ellipse at 90% 82%, rgba(249,115,22,.075), transparent 34%), linear-gradient(135deg, #fbf9f5, var(--kp-cream)); }
 
 .kerby-portfolio .kp-education-layout { display: grid; grid-template-columns: .72fr 1.28fr; align-items: start; gap: 75px; }
 
@@ -374,7 +374,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Projects */
 
-.kerby-portfolio .kp-projects { background: #fff; }
+.kerby-portfolio .kp-projects { background: radial-gradient(ellipse at 10% 12%, rgba(249,115,22,.055), transparent 32%), linear-gradient(135deg, #fff, #fcfaf7); }
 
 .kerby-portfolio .kp-project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
 
@@ -414,7 +414,7 @@ $kp_images = trailingslashit( get_stylesheet_directory_uri() ) . 'assets/images/
 
 /* Certificates / learning */
 
-.kerby-portfolio .kp-certificates { background: var(--kp-cream); }
+.kerby-portfolio .kp-certificates { background: radial-gradient(ellipse at 88% 16%, rgba(249,115,22,.075), transparent 34%), linear-gradient(135deg, #fbf9f5, var(--kp-cream)); }
 
 .kerby-portfolio .kp-certificate-box { display: grid; grid-template-columns: 82px 1fr; align-items: start; gap: 28px; padding: 34px; margin-top: 34px; border: 1px solid var(--kp-border); background: #fff; }
 
